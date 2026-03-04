@@ -1,6 +1,7 @@
 # Behavior and Location-Based Risk Analysis for Secure E-Commerce Payments
  
-* In this, we implemented Fraud Detection System (FDS) using Behavior and Location Analysis (BLA) to detect a payment fraud. FDS verifies whether the transaction is genuine or not. User spending patterns and geographical location is used to verify the identity. If any unusual pattern is detected, payment is declined.
+* This project implements a Behavior and Location-Based Risk Analysis module for detecting suspicious payment activity in online transactions. The system analyzes historical    transaction data to identify abnormal spending patterns and verifies the user’s location using an IP geolocation service before allowing payment execution.
+* The fraud detection logic acts as a pre-payment validation layer, ensuring that suspicious transactions are flagged before the payment gateway processes the transaction.
 * For location analysis, we utilised [ipinfo.io](https://ipinfo.io/). To obtain the location, we must utilise the ipinfo.io access token. 
 
 ### How to Use?
