@@ -5,7 +5,7 @@
 * For location analysis, we utilised [ipinfo.io](https://ipinfo.io/). To obtain the location, we must utilise the ipinfo.io access token. 
 
 ### How to Use?
-    git clone https://github.com/shivamsaraswat/credit-card-fraud-detection.git
+    git clone https://github.com/viswanadhmallavolu/Online-Transaction-Fraud-Detection-System    
     cd credit-card-fraud-detection.git
     pip install virtualenv
     virtualenv env
